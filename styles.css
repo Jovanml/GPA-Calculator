@@ -14,6 +14,11 @@ body{
 h1, h2{
     text-align:center;
     color:#fff;
+    text-decoration: underline;
+}
+
+h1{
+    padding: 8px;
 }
 
 .center {
@@ -24,16 +29,7 @@ h1, h2{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.top-bar{
-    background-color: #24012752;
-    height: 11%;
-}
 
-.top-bar h1{
-    line-height: 60px;
-    text-align:center;
-    color:rgb(255, 251, 251);
-}
 
 .courses-header{
     position:relative;
