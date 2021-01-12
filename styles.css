@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background:#42455a;
+}
+
+h1, h2{
+    text-align:center;
+    color:#fff;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.top-bar{
+    background-color: rgba(149, 31, 160, 0.438);
+    height: 11%;
+}
+
+.top-bar h1{
+    line-height: 60px;
+    text-align:center;
+}
+
+.courses-header{
+    position:relative;
+    top:35px;
+}
+.container{
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    top:50px;
+    
+}
+
+.buttons{
+    position:absolute;
+    display:flex;
+    left:50%;
+    top:75%;
+    transform: translate(-50%, -50%);
+    padding:5px
+}
+
+.buttons button{
+    display:flex;
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color:white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), 
+    rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #42455a inset;
+}
+
+.add-btn{
+    margin:5px
+} 
+
+.buttons > .add-btn:hover {
+    box-shadow: none;
+    color: white;
+  }
+
+.cal-btn{
+    margin:5px
+}
+  
+.buttons > .cal-btn:hover {
+box-shadow: none;
+color: white;
+}
+
+.del-btn{
+    margin:5px
+}
+
+.buttons > .del-btn:hover {
+box-shadow: none;
+color: white;
+}
+
+.gpa-text{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+    background: linear-gradient(to right,#78e4ff, #ff48fa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.output-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height:6%;
+    line-height: 32px;
+    text-align:center;
+    background-color:#fff;
+}
