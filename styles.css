@@ -8,6 +8,7 @@ body{
     width:100vw;
     height:100vh;
     background:#42455a;
+    
 }
 
 h1, h2{
@@ -24,13 +25,16 @@ h1, h2{
     transform: translate(-50%, -50%);
 }
 .top-bar{
-    background-color: rgba(149, 31, 160, 0.438);
+    background-color: #24012752;
     height: 11%;
 }
 
 .top-bar h1{
     line-height: 60px;
     text-align:center;
+    background: linear-gradient(to right,#78e4ff, #ff48fa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;;
 }
 
 .courses-header{
